@@ -1,0 +1,6 @@
+subplot(3,1,1)
+plot(controlTest.t, controlTest.rollEr)
+subplot(3,1,2)
+plot(controlTest.t, controlTest.q)
+subplot(3,1,3)
+plot(controlTest.t, controlTest.u)
